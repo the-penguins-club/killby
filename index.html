@@ -22,7 +22,7 @@
 
     <h1 class="title">Killed by Penguins</h1>
     <p class="lede">A graveyard of Linux distributions, FOSS apps, services and hardware.</p>
-    <p class="counter" id="counter" aria-live="polite"># 12 souls interred</p>
+    <p class="counter" id="counter" aria-live="polite"># 15 souls interred</p>
   </header>
 
   <hr />
@@ -30,10 +30,10 @@
   <div class="controls" role="search">
     <label for="search">/ <input id="search" type="search" placeholder="grep..." autocomplete="off" spellcheck="false" aria-label="search the graveyard" /></label>
     <span class="filters" id="filters" role="group" aria-label="filter by category">
-      <button type="button" data-category="all" aria-pressed="true">[all: 12]</button>
-      <button type="button" data-category="distribution" aria-pressed="false">[distro: 5]</button>
+      <button type="button" data-category="all" aria-pressed="true">[all: 15]</button>
+      <button type="button" data-category="distribution" aria-pressed="false">[distro: 7]</button>
       <button type="button" data-category="app" aria-pressed="false">[app: 3]</button>
-      <button type="button" data-category="service" aria-pressed="false">[service: 4]</button>
+      <button type="button" data-category="service" aria-pressed="false">[service: 5]</button>
       <button type="button" data-category="hardware" aria-pressed="false">[hardware: 0]</button>
     </span>
   </div>
@@ -42,6 +42,23 @@
 
   <main>
     <ul id="graveyard" class="graveyard">
+      <li class="entry" data-category="service" data-name="firefox send" data-desc="mozilla&#39;s sleek, end-to-end encrypted file sharing tool that let you send self-destructing links. shuttered at 3 after malware operators realized it was also the world&#39;s most convenient drop box.">
+        <div class="entry-stone">
+          <pre class="tombstone" aria-hidden="true">   .--.  
+  |RIP|  
+  |   |  
+  |___|  
+  /   \  
+ /_____\ 
+ |     | </pre>
+          <div class="tombstone-years">2017—2020</div>
+          <div class="tombstone-category">service</div>
+        </div>
+        <div class="entry-inscription">
+          <h2 class="entry-name"><a href="https://en.wikipedia.org/wiki/Firefox_Send" target="_blank" rel="noopener noreferrer">Firefox Send</a></h2>
+          <p class="entry-desc">Mozilla&#39;s sleek, end-to-end encrypted file sharing tool that let you send self-destructing links. Shuttered at 3 after malware operators realized it was also the world&#39;s most convenient drop box.</p>
+        </div>
+      </li>
       <li class="entry" data-category="distribution" data-name="sabayon linux" data-desc="italian gentoo-based distro that precompiled the world so you didn&#39;t have to. slipped into the abyss at 14 after the maintainer waved the entropy package manager a fond farewell.">
         <div class="entry-stone">
           <pre class="tombstone" aria-hidden="true">   .--.  
@@ -74,6 +91,23 @@
         <div class="entry-inscription">
           <h2 class="entry-name"><a href="https://en.wikipedia.org/wiki/Scientific_Linux" target="_blank" rel="noopener noreferrer">Scientific Linux</a></h2>
           <p class="entry-desc">Fermilab and CERN&#39;s beloved RHEL rebuild, kept particle physicists out of dependency hell for fifteen years. Rested in peace once CentOS 8 showed up to take over the beaker.</p>
+        </div>
+      </li>
+      <li class="entry" data-category="distribution" data-name="magpieos" data-desc="bangladeshi arch spin named after the national bird, crafted to spare mortals from the command-line rites of vanilla arch. flew into the sunset at barely two when the solo student maintainer archived the repo.">
+        <div class="entry-stone">
+          <pre class="tombstone" aria-hidden="true">   .--.  
+  |RIP|  
+  |   |  
+  |___|  
+  /   \  
+ /_____\ 
+ |     | </pre>
+          <div class="tombstone-years">2018—2019</div>
+          <div class="tombstone-category">distro</div>
+        </div>
+        <div class="entry-inscription">
+          <h2 class="entry-name"><a href="https://itsfoss.com/magpieos/" target="_blank" rel="noopener noreferrer">MagpieOS</a></h2>
+          <p class="entry-desc">Bangladeshi Arch spin named after the national bird, crafted to spare mortals from the command-line rites of vanilla Arch. Flew into the sunset at barely two when the solo student maintainer archived the repo.</p>
         </div>
       </li>
       <li class="entry" data-category="distribution" data-name="antergos" data-desc="arch for people who didn&#39;t want to type &#39;pacman -s&#39; fifty times. pulled the numix-themed plug at six, citing a single maintainer who&#39;d had enough of being on call.">
@@ -210,6 +244,23 @@
         <div class="entry-inscription">
           <h2 class="entry-name"><a href="https://en.wikipedia.org/wiki/Arista_Transcoder" target="_blank" rel="noopener noreferrer">Arista Transcoder</a></h2>
           <p class="entry-desc">Sweet little GNOME transcoder that wrapped FFmpeg in a friendly face. Pushed up daisies at 2 when its developer got a real job and the GStreamer pipe under it rusted through.</p>
+        </div>
+      </li>
+      <li class="entry" data-category="distribution" data-name="ankur bangla" data-desc="pioneering bangladeshi distro that brought bangla gnome, mukti fonts, and out-of-the-box bengali typing to the masses. bowed out after its 2012 shishir release once upstream distros finally learned to render indic script.">
+        <div class="entry-stone">
+          <pre class="tombstone" aria-hidden="true">   .--.  
+  |RIP|  
+  |   |  
+  |___|  
+  /   \  
+ /_____\ 
+ |     | </pre>
+          <div class="tombstone-years">2003—2012</div>
+          <div class="tombstone-category">distro</div>
+        </div>
+        <div class="entry-inscription">
+          <h2 class="entry-name"><a href="https://distrowatch.com/table.php?distribution=ankur" target="_blank" rel="noopener noreferrer">Ankur Bangla</a></h2>
+          <p class="entry-desc">Pioneering Bangladeshi distro that brought Bangla GNOME, Mukti fonts, and out-of-the-box Bengali typing to the masses. Bowed out after its 2012 Shishir release once upstream distros finally learned to render Indic script.</p>
         </div>
       </li>
       <li class="entry" data-category="service" data-name="flock (browser)" data-desc="chromium-based social-networking browser loved by the early web 2.0 crowd. closed its tabs for the last time at 6 when its users had all moved to actual facebook.">

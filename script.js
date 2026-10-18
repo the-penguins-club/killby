@@ -70,6 +70,22 @@
     }
   }
 
+  // Recompute the per-category counts and rewrite the filter button labels.
+  // The static HTML may be stale (fewer entries than the loaded JSON), so we
+  // can't trust the labels baked in at build time once JS takes over.
+  function refreshFilterCounts() {
+    const counts = entries.reduce((acc, e) => {
+      acc[e.category] = (acc[e.category] || 0) + 1;
+      return acc;
+    }, {});
+    counts.all = entries.length;
+    for (const b of $filters.children) {
+      const key = b.dataset.category;
+      const label = CATEGORIES.find(c => c.key === key)?.label || key;
+      b.textContent = `[${label}: ${counts[key] || 0}]`;
+    }
+  }
+
   function attachFilterHandlers() {
     for (const btn of $filters.children) {
       btn.addEventListener("click", () => {
@@ -161,6 +177,7 @@
     }
     attachFilterHandlers();
     syncCategoryButtons();
+    refreshFilterCounts();
     applyFilters();
   }
 
@@ -185,6 +202,7 @@
         render();
         attachFilterHandlers();
         syncCategoryButtons();
+        refreshFilterCounts();
       }
       $counter.textContent = `# ${entries.length} ${entries.length === 1 ? "soul" : "souls"} interred`;
     })
