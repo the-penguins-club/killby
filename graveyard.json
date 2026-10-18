@@ -16,6 +16,14 @@
     "link": "https://en.wikipedia.org/wiki/Scientific_Linux"
   },
   {
+    "name": "MagpieOS",
+    "category": "distribution",
+    "openDate": "2018-01-01",
+    "deathDate": "2019-08-29",
+    "description": "Bangladeshi Arch spin named after the national bird, crafted to spare mortals from the command-line rites of vanilla Arch. Flew into the sunset at barely two when the solo student maintainer archived the repo.",
+    "link": "https://itsfoss.com/magpieos/"
+  },
+  {
     "name": "Antergos",
     "category": "distribution",
     "openDate": "2013-05-01",
@@ -30,6 +38,14 @@
     "deathDate": "2013-06-19",
     "description": "Debian-derived, KDE-flavoured and famously easy on the grandparents. Died of natural causes at 10 when its founder wandered off toward Lubuntu pastures.",
     "link": "https://en.wikipedia.org/wiki/MEPIS"
+  },
+  {
+    "name": "Ankur Bangla",
+    "category": "distribution",
+    "openDate": "2003-12-01",
+    "deathDate": "2012-10-15",
+    "description": "Pioneering Bangladeshi distro that brought Bangla GNOME, Mukti fonts, and out-of-the-box Bengali typing to the masses. Bowed out after its 2012 Shishir release once upstream distros finally learned to render Indic script.",
+    "link": "https://distrowatch.com/table.php?distribution=ankur"
   },
   {
     "name": "Corel Linux",
@@ -62,6 +78,14 @@
     "deathDate": "2013-04-01",
     "description": "Sweet little GNOME transcoder that wrapped FFmpeg in a friendly face. Pushed up daisies at 2 when its developer got a real job and the GStreamer pipe under it rusted through.",
     "link": "https://en.wikipedia.org/wiki/Arista_Transcoder"
+  },
+  {
+    "name": "Firefox Send",
+    "category": "service",
+    "openDate": "2017-08-01",
+    "deathDate": "2020-09-17",
+    "description": "Mozilla's sleek, end-to-end encrypted file sharing tool that let you send self-destructing links. Shuttered at 3 after malware operators realized it was also the world's most convenient drop box.",
+    "link": "https://en.wikipedia.org/wiki/Firefox_Send"
   },
   {
     "name": "Ubuntu One",
